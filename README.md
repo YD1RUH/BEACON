@@ -3,7 +3,7 @@
 
 <p align="center">
   Send text, position, photos and images over plain radio audio - no internet, no cell network.<br>
-  Android app and Windows desktop app. Civilian Edition (no encryption / cryptography).
+  Android app and Windows desktop app - Civilian Edition.
 </p>
 
 <p align="center">
@@ -18,8 +18,13 @@
   <img alt="Dear ImGui" src="https://img.shields.io/badge/UI-Dear%20ImGui%201.93-4F8FBA">
   <img alt="Offline" src="https://img.shields.io/badge/works-offline-success">
   <img alt="Languages" src="https://img.shields.io/badge/UI-EN%20%7C%20ID%20%7C%20JA-lightgrey">
-  <img alt="Encryption" src="https://img.shields.io/badge/encryption-none%20(civilian)-red">
 </p>
+
+---
+
+## About
+
+BEACON is a communication and navigation tool for situations where the usual networks are gone. It converts text messages, GPS positions, small photos and full-colour pictures into audio tones, so they can travel over any radio, a wired audio link, or simply through a phone speaker and microphone - with no internet and no cell coverage. The receiving device decodes the sound back into messages, shows nodes on a radar, a 3D map and an AR camera view, and keeps everything in a local inbox. The Android app and the Windows desktop app share the same modes, so a phone in the field and a PC at a base station can exchange messages, positions and pictures directly.
 
 ---
 
@@ -143,13 +148,11 @@ RX starts automatically when the app opens. The mode you choose is shared by Com
 | Languages (EN / ID / JA) and 6 themes | Yes | Yes |
 | Install | APK (about 36 MB) | One portable `.exe` (about 3 MB) |
 | Minimum system | Android 8.1 (API 27) | Windows 10 x64 |
-| Encryption | None (civilian edition) | None (civilian edition) |
 
 ---
 
 ## Good to know
 
-* **No encryption.** This is the Civilian Edition: messages, positions and pictures are sent in clear and can be read by anyone who receives the audio. Do not send sensitive information.
 * **Not an AX.25 / APRS packet radio.** AFSK modes use APRS-style modulation but the app's own frame, so ordinary APRS stations will not decode it. The MFSK modes are a simple implementation and are not compatible with fldigi.
 * **Amateur radio.** If you transmit over a radio, follow your local regulations and use your own callsign.
 * **Android map screen** is currently shown in Indonesian only; the rest of the app follows the selected language.
