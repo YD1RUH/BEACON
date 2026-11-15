@@ -32,8 +32,8 @@ BEACON is a communication and navigation tool for situations where the usual net
 
 | Platform | File | Size | SHA-256 |
 |---|---|---|---|
-| Android 8.1+ | [`BEACON.apk`](BEACON.apk) | ~36 MB | `df5d10ed29754687a660a4b04f95a4af25d3f8a43c9f1cda7cc99e4210fd69f5` |
-| Windows 10/11 (x64) | [`BEACON.exe`](BEACON.exe) | ~3 MB | `abdace789fa97eff6a08eeb0d793aa7bdefdf328ec994856b08078a8cda6b781` |
+| Android 8.1+ | [`BEACON.apk`](https://github.com/YD1RUH/BEACON/releases/download/Beta-V1.0.0/BEACON.apk) | ~36 MB | `df5d10ed29754687a660a4b04f95a4af25d3f8a43c9f1cda7cc99e4210fd69f5` |
+| Windows 10/11 (x64) | [`BEACON.exe`](https://github.com/YD1RUH/BEACON/releases/download/Beta-V1.0.0/BEACON.exe) | ~3 MB | `abdace789fa97eff6a08eeb0d793aa7bdefdf328ec994856b08078a8cda6b781` |
 
 * **Android:** enable *Install unknown apps* for your browser/file manager, open `BEACON.apk`, allow Microphone (required), Location and Camera (optional).
 * **Windows:** single portable file - no installer, no extra DLLs. Double-click `BEACON.exe`. Settings are kept in `%APPDATA%\MfskMessenger`.
